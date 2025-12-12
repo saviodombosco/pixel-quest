@@ -1,0 +1,29 @@
+{
+  "name": "pixel-quest",
+  "version": "1.0.0",
+  "description": "A single-player browser MMORPG built with Phaser 3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "mmorpg",
+    "game",
+    "browser-game"
+  ],
+  "author": "saviodombosco",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "@webpack-cli/serve": "^2.0.5",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
